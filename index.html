@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <!-- set the character set -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- first step to a responsive site -->
+    <title>2021 Mayoral Election</title>
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <!-- Your styles should be called here -->
+    <link href="style.css" rel="stylesheet" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      	<![endif]-->
+  </head>
+
+  <body>
+    <!-- YOUR CONTENT GOES HERE -->
+    <div class="container">
+      <h1>Who is running for Mayor in New York City?</h1>
+      <p>This list is the top 20 Disney movies as ranked by IMDb. Use the filters to narrow the list by animation type, lead gender, whether the movie contains magic, or any combination therein.</p>
+      <div class="flex filter">
+        <div>
+          <select id="party" class="filter">
+            <option value="item">Party</option>
+            <option value="dem">Democrat</option>
+            <option value="rep">Republican</option>
+            <option value="ind">Independent</option>
+          </select>
+        </div>
+        <div>
+          <select id="priority" class="filter">
+            <option value="item">Priorities</option>
+            <option value="health-priority">Health</option>
+            <option value="education-priority">Education</option>
+            <option value="safety-priority">Public Safety</option>
+            <option value="justice-priority">Criminal justice</option>
+            <option value="police-priority">Police reform</option>
+            <option value="climate-priority">Climate change and the environment</option>
+            <option value="housing-priority">Housing</option>
+            <option value="transportation-priority">Transportation</option>
+            <option value="covid-priority">COVID-19 Recovery</option>
+            <option value="economy-priority">Economy and jobs</option>
+            <option value="income-priority">Income inequality</option>
+            <option value="immigration-priority">Immigration</option>
+            <option value="community-priority">Community advocacy</option>
+          </select>
+        </div>
+        <div>
+          <select id="issue" class="filter">
+            <option value="item">Other Issues</option>
+            <option value="health">Health</option>
+            <option value="education">Education</option>
+            <option value="safety">Public Safety</option>
+            <option value="justice">Criminal justice</option>
+            <option value="police">Police reform</option>
+            <option value="climate">Climate change and the environment</option>
+            <option value="housing">Housing</option>
+            <option value="transportation">Transportation</option>
+            <option value="covid">COVID-19 Recovery</option>
+            <option value="economy">Economy and jobs</option>
+            <option value="income">Income inequality</option>
+            <option value="immigration">Immigration</option>
+            <option value="community">Community advocacy</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="container photo">
+      <section class="flex">
+        <div class="item active dem safety economy housing health covid">
+          <img src="images/eric-adams.jpg" />
+          <h3>Eric Adams</h3>
+        </div>
+
+        <div class="item active dem health education economy climate housing transportation covid">
+          <img src="images/scott-stringer.png" />
+          <h3>Scott Stringer</h3>
+        </div>
+
+        <div class="item active dem justice police housing climate covid health">
+          <img src="images/maya-wiley.jpg" />
+          <h3>Maya Wiley</h3>
+        </div>
+
+        <div class="item active dem economy safety education housing">
+          <img src="images/ray-mcguire.jpg" />
+          <h3>Ray McGuire</h3>
+        </div>
+
+        <div class="item active dem covid justice housing climate transportation">
+          <img src="images/andrew-yang.jpg" />
+          <h3>Andrew Yang</h3>
+        </div>
+
+        <div class="item active dem education climate housing transportation justice economony">
+          <img src="images/shaun-donovan.jpg" />
+          <h3>Shaun Donovan</h3>
+        </div>
+
+        <div class="item active dem police housing income community">
+          <img src="images/dianne-morales.jpg" />
+          <h3>Dianne Morales</h3>
+        </div>
+
+        <div class="item active dem covid climate transportation housing education police">
+          <img src="images/kathryn-garcia.jpg" />
+          <h3>Kathryn Garcia</h3>
+        </div>
+
+        <div class="item active dem immigration covid economy housing health transportation safety climate education">
+          <img src="images/carlos-menchaca.jpg" />
+          <h3>Carlos Menchaca</h3>
+        </div>
+
+        <div class="item active dem climate education health housing immigration transportation economy income">
+          <img src="images/loree-sutton.jpg" />
+          <h3>Loree Sutton</h3>
+        </div>
+
+        <div class="item active rep safety justice economy housing">
+          <img src="images/sara-tirschwell.jpg" />
+          <h3>Sara Tirschwell</h3>
+        </div>
+
+        <div class="item active dem police education housing economy health">
+          <img src="images/barbara-kavovit.png" />
+          <h3>Barbara Kavovit</h3>
+        </div>
+
+        <div class="item active rep safety">
+          <img src="images/curtis-sliwa.jpg" />
+          <h3>Curtis Sliwa</h3>
+        </div>
+
+        <div class="item active rep">
+          <img src="images/fernando-mateo.jpg" />
+          <h3>Fernando Mateo</h3>
+        </div>
+
+        <div class="item active dem">
+          <img src="https://img.buzzfeed.com/buzzfeed-static/static/2017-11/7/18/asset/buzzfeed-prod-fastlane-01/sub-buzz-25558-1510097795-4.jpg?downsize=600:*&output-format=auto&output-quality=auto" />
+          <h3>Isaac Wright Jr.</h3>
+        </div>
+
+        <div class="item active dem">
+          <img src="https://img.buzzfeed.com/buzzfeed-static/static/2017-11/7/18/asset/buzzfeed-prod-fastlane-03/sub-buzz-5181-1510097872-1.png?downsize=600:*&output-format=auto&output-quality=auto" />
+          <h3>Art Chang</h3>
+        </div>
+
+        <div class="item active dem">
+          <img src="https://img.buzzfeed.com/buzzfeed-static/static/2017-11/7/18/asset/buzzfeed-prod-fastlane-02/sub-buzz-26797-1510098007-7.jpg?downsize=600:*&output-format=auto&output-quality=auto" />
+          <h3>Aaron Foldenauer</h3>
+        </div>
+
+        <div class="item active rep">
+          <img src="https://img.buzzfeed.com/buzzfeed-static/static/2017-11/7/18/asset/buzzfeed-prod-fastlane-03/sub-buzz-4901-1510098089-3.jpg?downsize=600:*&output-format=auto&output-quality=auto" />
+          <h3>William Pepitone</h3>
+        </div>
+
+        <div class="item active ind">
+          <img src="https://img.buzzfeed.com/buzzfeed-static/static/2017-11/7/18/asset/buzzfeed-prod-fastlane-03/sub-buzz-5108-1510098233-4.jpg?downsize=600:*&output-format=auto&output-quality=auto" />
+          <h3>Christopher Krietchman</h3>
+        </div>
+
+        <div class="item active dem">
+          <img src="https://img.buzzfeed.com/buzzfeed-static/static/2017-11/7/18/asset/buzzfeed-prod-fastlane-01/sub-buzz-25626-1510098356-8.jpg?downsize=600:*&output-format=auto&output-quality=auto" />
+          <h3>Paperboy Prince</h3>
+        </div>
+
+        <div class="item active dem">
+          <img src="https://img.buzzfeed.com/buzzfeed-static/static/2017-11/7/18/asset/buzzfeed-prod-fastlane-03/sub-buzz-5181-1510098401-3.jpg?downsize=600:*&output-format=auto&output-quality=auto" />
+          <h3>Eddie Cullen</h3>
+        </div>
+
+        <div class="item active dem">
+          <img src="https://img.buzzfeed.com/buzzfeed-static/static/2017-11/7/18/asset/buzzfeed-prod-fastlane-01/sub-buzz-26610-1510098878-1.png?downsize=600:*&output-format=auto&output-quality=auto" />
+          <h3>Quanda Francis</h3>
+        </div>
+
+    </div>
+    </section>
+    </div>
+
+    <!-- Your javascript should be called here -->
+    <script src="main.js"></script>
+  </body>
+
+</html>
