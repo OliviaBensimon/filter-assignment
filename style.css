@@ -27,7 +27,7 @@ body {
 }
 
 .container.photo {
-    max-width: 1200px;
+    max-width: 900px;
     padding: 5px;
 }
 
@@ -67,10 +67,14 @@ select {
     display: block;
 }
 
+.flex .item img {
+    border-radius: 50%;
+}
+
 /* Tablet/Desktop overrides */
 @media(min-width: 681px) {
     .flex .item {
-        flex-basis: 24%;
+        flex-basis: 30%;
     }
 
     .flex.filter div {
