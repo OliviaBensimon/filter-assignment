@@ -28,7 +28,7 @@ body {
 
 .container.photo {
     max-width: 900px;
-    padding: 5px;
+    padding: 10px;
 }
 
 img {
@@ -57,10 +57,19 @@ select {
 .flex .item {
     flex-basis: 48%;
     display: none;
+    border: solid 0.5px;
+    margin-bottom: 20px;
+    background-color: #d9d9d9;
+    text-align: right;
 }
 
 .flex .item h3 {
-    padding: 0 5px;
+    padding-right: 10px;
+}
+
+.flex .item p {
+    padding-right: 10px;
+    padding-left: 5px;
 }
 
 .flex .item.active {
@@ -69,6 +78,11 @@ select {
 
 .flex .item img {
     border-radius: 50%;
+    max-width: 140px;
+    float: left;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-left: 5px;
 }
 
 /* Tablet/Desktop overrides */
