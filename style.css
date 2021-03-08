@@ -21,6 +21,10 @@ body {
     font-family: 'EB Garamond', serif;
 }
 
+h4 {
+    font-style: italic;
+}
+
 .container {
     max-width: 800px;
     margin: 0 auto;
@@ -64,8 +68,15 @@ select {
     text-align: right;
 }
 
-.flex .item h3 {
-    padding-right: 10px;
+.candidate-top {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.name {
+    flex-basis: 40%;
+    padding-right: 15px;
 }
 
 .flex .item p {
