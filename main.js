@@ -29,8 +29,8 @@ function filter_mayors() {
 	 * Capture the value of each dropdown
 	 */
 	const party_class = document.querySelector("#party").value;
-	const priority_class = document.querySelector("#priority").value;
-	const issue_class = document.querySelector("#issue").value;
+	const priority_class = document.querySelector("#issue").value;
+	const issue_class = document.querySelector("#priority").value;
 
 	/**
 	 * Remove .active from each active item
@@ -44,7 +44,7 @@ function filter_mayors() {
 	/**
 	 * Show items that match the dropdowns
 	 */
-	const filtered_items = document.querySelectorAll(`.item.${party_class}.${priority_class}.${issue_class}`);
+	const filtered_items = document.querySelectorAll(`.item.${party_class}.${issue_class}.${priority_class}`);
 
 	filtered_items.forEach(function (item) {
 		item.classList.add("active");
