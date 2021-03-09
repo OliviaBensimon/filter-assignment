@@ -62,9 +62,22 @@ select {
 .flex .item {
     flex-basis: 48%;
     display: none;
-    border: solid 1.5px;
     margin-bottom: 15px;
     background-color: #fafafa;
+}
+
+.dem {
+    border: solid 1.5px;
+    border-color: blue;
+}
+
+.rep {
+    border: solid 1.5px;
+    border-color: red;
+}
+
+.ind {
+    border: solid 1.5px;
 }
 
 .candidate-top {
