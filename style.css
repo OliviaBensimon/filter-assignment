@@ -62,10 +62,9 @@ select {
 .flex .item {
     flex-basis: 48%;
     display: none;
-    border: solid 0.5px;
+    border: solid 1.5px;
     margin-bottom: 15px;
-    background-color: #f0f0f0;
-    text-align: right;
+    background-color: #fafafa;
 }
 
 .candidate-top {
@@ -81,7 +80,7 @@ select {
 
 .flex .item p {
     padding-right: 10px;
-    padding-left: 5px;
+    padding-left: 15px;
 }
 
 .flex .item.active {
